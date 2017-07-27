@@ -1,0 +1,19 @@
+#AUTHOR: BRETT HOLDEN
+
+This code runs on Python 3.4 and uses following dependencies:
+Scikit-learn
+NumPy
+NLTK
+
+Installation procedure for installing the dependencies:
+Pip - sudo apt-get install python-pip
+NLTK - pip install NLTK
+NumPy - pip install numpy
+Scikit-learn - pip install scikit-learn
+
+NLTK dependencies       
+In the terminal write “python”
+Once inside python write - import nltk
+Cmudict - nltk.download(‘cmudict’)
+Punkt Tokenizer - nltk.download(‘punkt’)
+Averaged Perceptron Tagger - nltk.download(‘averaged_perceptron _tagger’)
